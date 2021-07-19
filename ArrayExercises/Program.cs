@@ -6,7 +6,10 @@ namespace ArrayExercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Arrays!");
+            foreach (int i in Array.arrayMethod())
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
